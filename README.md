@@ -4,7 +4,7 @@ This repository contains `R` code with an accompanying Dockerfile to run an anim
 
 <p align="center">
 <!-- ![LLN animation here](mu_animation_1.gif) -->
-    <img src="mu_animation_1.gif" alt="LLN Demo" width="500">
+    <img src="mu_animation_1.gif" alt="LLN Demo" width="750">
 </p>
 
 ## How to run
