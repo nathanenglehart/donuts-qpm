@@ -1,6 +1,6 @@
-# Law of large numbers demo 
+# Weak law of large numbers demo 
 
-This repository contains `R` code with an accompanying Dockerfile to run an animated simulation of the law of large numbers which tells us that the sample mean converges to the population mean in probability. I specifically model the following scenario. 
+This repository contains `R` code with an accompanying Dockerfile to run an animated simulation of the weak law of large numbers which tells us that the sample mean converges to the population mean in probability. More formally this means that $\mathbb{P}(\lvert \bar{X}_n - \mu \rvert > \varepsilon) \to 0$ as $n \to \infty$. I specifically model the following scenario. 
 
 - Flip a fair coin
 - If the coin lands heads, then call it a success
