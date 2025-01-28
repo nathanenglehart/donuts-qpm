@@ -2,7 +2,7 @@
 
 This repository contains `R` code with an accompanying Dockerfile to run an animated simulation of the law of large numbers. 
 
-![LLN animation here](animate_mu.gif)
+![LLN animation here](mu_animation_1.gif)
 
 ## How to run
 
