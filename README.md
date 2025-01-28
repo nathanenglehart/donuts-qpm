@@ -29,10 +29,10 @@ Rscript animate_mu.r
 The `mp4` file can be recovered by opening another terminal and running.
 
 ```bash
-sudo docker cp container-id:/app/mu_animation.mp4 /path/to/mu_animation_1.mp4
+sudo docker cp container-id:/app/mu_animation.mp4 ~/mu_animation_1.mp4
 ```
 
-The container id can be obtained by running `sudo docker ps`. To exit to the `docker` image, simply type `exit`.
+The `container-id` can be obtained by running `sudo docker ps`. To exit to the `docker` image, simply type `exit`.
 
 I created the `gif` above using `ffmpeg`. 
 
