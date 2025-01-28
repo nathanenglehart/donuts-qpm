@@ -12,7 +12,7 @@ We find that the sample mean converges to the population mean which I set to $\f
 
 <p align="center">
 <!-- ![LLN animation here](mu_animation_1.gif) -->
-    <img src="mu_animation_3.gif" alt="LLN Demo" width="750">
+    <img src="mu_animation_4.gif" alt="LLN Demo" width="">
 </p>
 
 ## How to run
@@ -37,7 +37,7 @@ The container id can be obtained by running `sudo docker ps`. To exit to the `do
 I created the `gif` above using `ffmpeg`. 
 
 ```bash
-ffmpeg -i mu_animation_1.mp4 -vf "fps=20,scale=800:-1:flags=lanczos" mu_animation_3.gif
+ffmpeg -i mu_animation_1.mp4 -vf "fps=30,scale=1920:-1:flags=lanczos" mu_animation_3.gif
 ```
 
 
