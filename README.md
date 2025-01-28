@@ -1,6 +1,14 @@
 # Law of large numbers demo 
 
-This repository contains `R` code with an accompanying Dockerfile to run an animated simulation of the law of large numbers. 
+This repository contains `R` code with an accompanying Dockerfile to run an animated simulation of the law of large numbers which tells us that the sample mean converges to the population mean in probability. I specifically model the following scenario. 
+
+- Flip a fair coin
+- If the coin lands heads, then call it a success
+- Flip again and count the number of consecutive heads
+- Repeat 5000 times
+- At each step compute the share of heads
+
+We find that the sample mean converges to the population mean which I set to $\frac{1}{2}$.
 
 <p align="center">
 <!-- ![LLN animation here](mu_animation_1.gif) -->
